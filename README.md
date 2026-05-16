@@ -1,6 +1,6 @@
 # studio
 
-![Branch: second](https://img.shields.io/badge/Branch-second-blue?logo=github)
+![Branch: meta](https://img.shields.io/badge/Branch-meta-blue?logo=github)
 
 ## The Prompt
 
