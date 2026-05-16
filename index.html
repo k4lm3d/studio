@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -90,7 +90,7 @@
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center gap-2 group">
                 <div class="w-9 h-9 bg-gradient-to-br from-accent-primary to-accent-secondary rounded-xl flex items-center justify-center transition-transform group-hover:rotate-12">
-                    <i data-lucide="zap" class="w-5 h-5 text-white fill-current"></i>
+                    <i data-feather="zap" class="w-5 h-5 text-white fill-current"></i>
                 </div>
                 <span class="text-xl font-bold tracking-tighter">STUDIO</span>
             </a>
@@ -105,14 +105,15 @@
 
             <div class="hidden md:flex items-center gap-4">
                 <a href="https://github.com" target="_blank" class="p-2 text-gray-400 hover:text-white transition-colors">
-                    <i data-lucide="github" class="w-5 h-5"></i>
+                    <!-- <i data-lucide="github" class="w-5 h-5"></i> -->
+                    <i data-feather="github" class="w-5 h-5"></i>
                 </a>
                 <button class="px-6 py-2.5 text-sm font-bold bg-white text-black rounded-full hover:bg-gray-200 transition-all">Get Started</button>
             </div>
 
             <!-- Mobile Toggle -->
             <button @click="mobileMenu = !mobileMenu" class="md:hidden text-white">
-                <i data-lucide="menu"></i>
+                <i data-feather="menu"></i>
             </button>
         </div>
     </nav>
@@ -138,14 +139,14 @@
                     Studio v2.4.0 is Live
                 </div>
                 <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[0.9] gradient-text">
-                    Engineering the <br>future of design.
+                    Engineering the future of design.
                 </h1>
                 <p class="text-xl text-gray-400 max-w-lg leading-relaxed font-medium">
                     The ultimate high-performance workspace for modern engineering teams. Minimal by design, powerful by nature.
                 </p>
                 <div class="flex flex-wrap gap-5 pt-4">
                     <button class="px-10 py-4 bg-white text-black font-extrabold rounded-full hover:scale-105 transition-transform flex items-center gap-2 shadow-2xl shadow-white/10">
-                        <i data-lucide="download" class="w-5 h-5"></i> Download
+                        <i data-feather="download" class="w-5 h-5"></i> Download
                     </button>
                     <a href="#releases" class="px-10 py-4 glass text-white font-extrabold rounded-full hover:bg-white/10 transition-all border border-white/10 flex items-center gap-2">
                         View Releases
@@ -163,7 +164,7 @@
                         <div class="w-3 h-3 rounded-full bg-white/10"></div>
                     </div>
                     <div class="p-8 bg-dark/60 aspect-video flex flex-col justify-center items-center">
-                        <i data-lucide="layers" class="w-20 h-20 text-accent-primary/20 mb-6"></i>
+                        <i data-feather="layers" class="w-20 h-20 text-accent-primary/20 mb-6"></i>
                         <div class="w-48 h-2 bg-white/5 rounded-full overflow-hidden">
                             <div class="w-1/3 h-full bg-accent-primary"></div>
                         </div>
@@ -184,21 +185,21 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="glass p-10 rounded-[2.5rem] group hover:border-accent-primary/50 transition-all">
                     <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <i data-lucide="zap" class="text-accent-primary"></i>
+                        <i data-feather="zap" class="text-accent-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Zero-Latency Sync</h3>
                     <p class="text-gray-400 leading-relaxed">Proprietary CRDT algorithms ensure your team stays in sync with sub-millisecond propagation.</p>
                 </div>
                 <div class="glass p-10 rounded-[2.5rem] group hover:border-accent-secondary/50 transition-all">
                     <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <i data-lucide="command" class="text-accent-secondary"></i>
+                        <i data-feather="command" class="text-accent-secondary"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Keyboard First</h3>
                     <p class="text-gray-400 leading-relaxed">A command palette that lets you control every aspect of the app without ever touching your mouse.</p>
                 </div>
                 <div class="glass p-10 rounded-[2.5rem] group hover:border-blue-500/50 transition-all">
                     <div class="w-14 h-14 bg-white/5 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
-                        <i data-lucide="shield" class="text-blue-500"></i>
+                        <i data-feather="shield" class="text-blue-500"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Private by Default</h3>
                     <p class="text-gray-400 leading-relaxed">Local-first architecture ensures your data stays on your machine until you choose to share it.</p>
@@ -217,13 +218,13 @@
                 </div>
                 <div class="flex gap-3">
                     <span class="px-4 py-2 bg-white/5 rounded-xl border border-white/10 flex items-center gap-2 text-sm font-medium">
-                        <i data-lucide="box" class="w-4 h-4"></i> Linux
+                        <i data-feather="package" class="w-4 h-4"></i> Linux
                     </span>
                     <span class="px-4 py-2 bg-white/5 rounded-xl border border-white/10 flex items-center gap-2 text-sm font-medium">
-                        <i data-lucide="apple" class="w-4 h-4"></i> macOS 12+
+                        <i data-feather="monitor" class="w-4 h-4"></i> macOS 12+
                     </span>
                     <span class="px-4 py-2 bg-white/5 rounded-xl border border-white/10 flex items-center gap-2 text-sm font-medium">
-                        <i data-lucide="monitor" class="w-4 h-4"></i> Windows 10+
+                        <i data-feather="layout" class="w-4 h-4"></i> Windows 10+
                     </span>
                 </div>
             </div>
@@ -360,7 +361,7 @@
                     <div class="glass p-6 rounded-2xl space-y-4 opacity-50">
                         <div class="flex items-center justify-between">
                             <h4 class="font-bold">Dark Mode 2.0</h4>
-                            <i data-lucide="check-circle" class="w-4 h-4 text-green-500"></i>
+                            <i data-feather="check-circle" class="w-4 h-4 text-green-500"></i>
                         </div>
                         <p class="text-xs text-gray-500 leading-relaxed">Full system-wide high-contrast themes for night owls.</p>
                     </div>
@@ -375,7 +376,7 @@
             <div class="col-span-2 space-y-8">
                 <div class="flex items-center gap-2">
                     <div class="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                        <i data-lucide="zap" class="w-5 h-5 text-black fill-current"></i>
+                        <i data-feather="zap" class="w-5 h-5 text-black fill-current"></i>
                     </div>
                     <span class="text-xl font-bold tracking-tighter">STUDIO</span>
                 </div>
@@ -383,9 +384,9 @@
                     Designed for the next generation of digital creators. Built by engineers, for engineers. Uncompromising quality in every line of code.
                 </p>
                 <div class="flex gap-6 text-gray-500">
-                    <a href="#" class="hover:text-white transition-colors"><i data-lucide="twitter"></i></a>
-                    <a href="https://github.com" class="hover:text-white transition-colors"><i data-lucide="github"></i></a>
-                    <a href="#" class="hover:text-white transition-colors"><i data-lucide="linkedin"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i data-feather="twitter"></i></a>
+                    <a href="https://github.com" class="hover:text-white transition-colors"><i data-feather="github"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i data-feather="linkedin"></i></a>
                 </div>
             </div>
             <div>
@@ -418,8 +419,8 @@
     </footer>
 
     <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
+        // Initialize Feather Icons
+        feather.replace();
 
         // Scroll Reveal Animation
         const observerOptions = { threshold: 0.1 };
