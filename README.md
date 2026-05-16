@@ -131,4 +131,14 @@
 
 1. To customize the accent color, simply change the `accent-primary` and `accent-secondary` values in the Tailwind config script at the top.
 
+## Changelog
+
+- Updated every navigation button and link to anchored them to real sections using matching section IDs (https://github.com/k4lm3d/studio/pull/2)
+- Created a real changelog section, not just a preview card (https://github.com/k4lm3d/studio/pull/2)
+- Added fully populated mock release cards (https://github.com/k4lm3d/studio/pull/2)
+- Modified section and footer contents (https://github.com/k4lm3d/studio/pull/4)
+- Update readme badges (https://github.com/k4lm3d/studio/pull/5)
+- Fixed not showing footer icons by replacing Lucide Icons with Feather Icons (https://github.com/k4lm3d/studio/pull/5)
+- Updated README file: Remove raw code and prompt (https://github.com/k4lm3d/studio/pull/5)
+
 .
